@@ -1,0 +1,129 @@
+.body{
+    background-image: url("vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: auto;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;    
+}
+.form{
+    margin-top: 30px;
+    background-color: #b1b1b171;
+    height: 700px;
+    width: 1300px;
+    border-radius: 10px;
+    border: 2px solid rgba(230, 230, 230, 0.575);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.derec{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+.izq{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+}
+
+
+.grid3 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    height:350px;
+}
+
+.grid{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.price{
+    margin-bottom: 25px;       
+}
+.marca{
+    padding-bottom: 25px;   
+}
+.descri{
+    padding-bottom: 50px;    
+}
+.product{
+    padding-bottom: 15px;
+}
+.stock{
+    padding-bottom: 25px;
+}
+.cate{
+    padding-bottom: 25px;
+}
+.Input{
+    background-color: rgb(255, 255, 255);
+}
+
+.Input {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    border-width: 1px;
+    border-color: #cacaca;
+    opacity: 0.4;
+    padding-left: 6px;
+  }
+
+  .imagenSubida {
+    min-width: 220px;
+    max-width: 220px;
+
+    min-height: 180px;
+    max-height: 180px;
+
+    border-radius: 5px;
+  }
+.imgName{
+    color: transparent;
+}
+  .crear {
+    background-color: rgb(131, 245, 131);
+    height: 35px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(149, 207, 149);
+}
+
+.crear:hover {
+    background-color: rgb(219, 248, 219);
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(0, 255, 0);
+}

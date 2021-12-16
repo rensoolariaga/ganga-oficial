@@ -1,0 +1,275 @@
+.body{
+    background-color: white;
+    height:100%;
+    width: 100%;
+}
+.verificate{
+    padding-top: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+.logoVerificate{
+    color: rgb(23, 139, 247);
+    font-size: 2rem
+}
+.containerAll{
+    position: relative;
+    border-radius: 15px;
+    min-height: 80%;
+    width:90%;
+    margin: 3% 3%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+    .containerDerecho {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(250, 250, 250);
+        display: grid;
+        width: 130%;
+        border-radius: 10px;
+        margin-left: 10%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+    }
+   
+    .containerSubDerecho {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 100%;
+    }
+    .div1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+    .name {
+        font-family: "Mulish";
+        font-weight: bold;
+        margin-bottom: 7px;
+        padding: 10px;
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+        display: flex;
+        justify-content: center;
+        text-justify: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color:  rgb(0, 56, 82); */
+        margin-top: 10px;
+        border-radius: 3px;
+        color:#0c0c0c;
+        font-size: 2.2rem;
+    }
+    .nombre{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .brand{
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        text-justify: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #003f91;
+        color:#fdfeff;
+        font-size: 1.8rem;
+    }
+    .constainerSubIzquierdo {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .containerDescription {
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid rgba(124, 123, 123, 0.342);
+        border-radius: 10px;
+        padding: 4%;
+        margin: 2%;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+    }
+    .descrip {
+        border-radius: 10px;
+        max-height: 40%;
+        max-width: 100%;
+        padding-bottom: 50px;
+        margin-top: 10%;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: "Mulish";
+        font-weight: Regular;
+    }
+    .containerPrice{
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        margin: 2%;
+        padding-bottom: 150px;
+        padding: 2%;
+    }
+    .colorPrecio {
+        font-family: "Mulish";
+        font-weight: ExtraBold;
+        font-size: 25px;
+    }
+    .price {
+        width: 100%;
+        font-size: 35px;
+        border-bottom: 3px solid rgba(124, 123, 123, 0.342);
+        font-family: "Mulish";
+        font-weight: Regular;
+        color: #003f91;
+    }
+    .stock{
+        font-size: 20px;
+    }
+    
+    .containerButton {
+        padding: 2%;
+        margin: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        font-family: "Mulish";
+        font-weight: ExtraBold;
+        padding: 8px;
+        border: 4px solid #D0D0D0;
+        background-color: rgb(0, 56, 82);
+        color: rgb(255, 255, 255);
+        width:75%;
+        border-radius: 7px;
+        font-size: 30px;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .button:hover {
+        box-shadow: 10 10px 10px #320f6b30;
+        transition: all 0.25s ease;
+        background-color: #0b135e;
+        color: white; 
+    }
+    
+    .containerReveiws{
+        height: 100%;
+        padding-top: 10%;
+        padding-left: 50%;
+        display: flex;
+        border-radius: 8px;
+        flex-direction: column;
+    }
+
+    .titulo{
+        display:flex;
+        align-items: center;
+        text-justify: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    
+    
+  
+    .promedio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-justify: center;
+    }
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-justify: center;
+}
+  
+    
+    .containerDerecho:hover {
+        box-shadow: 5px 5px 10px rgb(133, 131, 131);
+    }
+    
+  
+    
+    
+    
+    
+    
+   
+    
+    @media screen and (max-width: 900px) {
+        .div2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .name {
+            font-size: 2rem;
+            height: 15%;
+            background-color: #003f91;
+            width: 80%;
+        }
+        .bnt {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: yellow
+        }
+        .colorPrecio {
+            font-size: 1.5rem;
+        }
+        .price {
+            font-size: 2rem;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }

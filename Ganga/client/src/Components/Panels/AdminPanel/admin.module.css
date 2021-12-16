@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+}
+
+
+
+.sidebar {
+    flex: 1;
+    background: rgb(0, 56, 82);
+    min-height: 700px;
+    height: auto;
+    border-width: 4px;
+    border-color: rgb(165, 165, 165);
+}
+
+.body {
+    flex: 4;
+}
+
+.widgets {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.widgetBox {
+    box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 60px -4px rgba(0,0,0,0.75);
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 34px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.newInfo {
+    padding-top: 20px;
+}
+
+.newUser {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    width: 250px;
+    background-color: rgb(243, 243, 243);
+}
+
+.newUser:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(31, 31, 31, 0.75);
+    background-color: white;
+    border-color: rgb(182, 182, 182);
+}
+
+.newSale {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(31, 31, 31, 0.75);
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 1000px;
+    border-width: 3px;
+    border-color: rgb(112, 112, 112);
+}
+
+.sale {
+  text-align: center;
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: rgb(117, 117, 117);
+}
+
+
+
+.listaUsuarios {
+    height: 500px;
+    padding-top: 20px;
+}
+
+
+
+.listaProductos {
+    height: 550px;
+}
+
+
+
+
+.listaVendedores {
+    height: 600px;
+}
+
+.delete {
+    text-align: center;
+    color:rgb(218, 0, 0);
+    /* width: 60px; */
+    font-size: 30px;
+}
+.delete:hover {
+    transform: translateY(-2px);
+    color:rgb(126, 0, 0);
+}
+
+.editar {
+    padding-top: 22px;
+    padding-left: 20px;
+    text-align: center;
+    color: rgb(76, 207, 76);
+    font-size: 25px;
+}
+.editar:hover {
+    transform: translateY(-2px);
+    color: rgb(46, 129, 46);
+}
+
+.check {
+    padding-top: 2px;
+    padding-left: 20px;
+    text-align: center;
+    color: rgb(76, 207, 76);
+    font-size: 25px;
+}
+.check:hover {
+    transform: translateY(-2px);
+    color: rgb(46, 129, 46);
+}
+
+.btnActualizar {
+    background-color: rgb(131, 245, 131);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(149, 207, 149);
+}
+
+.btnActualizar:hover {
+    background-color: rgb(219, 248, 219);
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(0, 255, 0);
+}

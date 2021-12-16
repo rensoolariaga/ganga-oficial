@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.body {
+    flex: 4;
+}
+
+.sidebar {
+    flex: 1;
+    background: rgb(0, 56, 82);
+    min-height: 700px;
+    height: auto;
+    border-width: 4px;
+    border-color: rgb(165, 165, 165);
+}
+.imgName {
+    color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    flex-direction: column;
+  }
+  .perfil{
+      width:150px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+  }
+.btnActualizar {
+    background-color: rgb(131, 245, 131);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(149, 207, 149);
+}
+
+.btnActualizar:hover {
+    background-color: rgb(219, 248, 219);
+    font-weight: bold;
+    color: rgba(55,65,81);
+    border-radius: 5%;
+    border-width: 3px;
+    border-color: rgb(0, 255, 0);
+}
+
+.imageUp{
+    max-width:100px;
+    max-height:150px ;
+}
